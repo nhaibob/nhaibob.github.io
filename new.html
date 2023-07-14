@@ -1,89 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Gaming Sets</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111;
-        }
-
-        center {
-            margin-top: 20px;
-        }
-
-        img {
-            height: 150px;
-            width: 200px;
-        }
-
-        form {
-            text-align: center;
-        }
-
-        select {
-            margin-top: 20px;
-            width: 250px;
-        }
-    </style>
+    <title>Gaming sets </title>
+<head> 
+<h1 style="text-align: center;">Gaming gear VN</h1>
 </head>
+<hr>
 <body>
-    <h1>Gaming Gear VN</h1>
-
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-    </ul>
-
-    <hr>
-
     <center>
-        <img src="pics/controller.png" alt="centered image" />
+    <img src="pics\controller.png"
+    height="150" 
+    width="200"
+    alt="centerd image"/>
     </center>
     
-    <h2>Homepage</h2>
-
-    <form action="app/form-processing" method="get" target="_blank">
-        <p>1) First name:<br><input type="text" name="firstname1" value=""/></p>
-        <p>2) Last name:<br><input type="text" name="firstname2" value=""/></p>
-        <p>3) Email:<br><input type="text" name="firstname3" value=""/></p>
-        <p>4) Address:<br><input type="text" name="firstname4" value=""/></p>
-        <p><input type="submit" name="submit" value="Submit"/></p>
+    <p>
+        <h2 style="text-align: center;">Homepage</h2>
+        <br>
+        <br>
+        <h2>Personal Information</h2>
+        <form action="app/form-processing" method="get" target="_blank" style="align text"></form>
+        <p>1)First name:<br><input type="text" name="firstname1" value=""/></p>
+        <p>2)Last name:<br><input type="text" name="firstname2" value=""/></p>
+        <p>3)Email:<br><input type="text" name="firstname3" value=""/></p>
+        <p>3)Address:<br><input type="text" name="firstname4" value=""/></p>
+        <p><input type="Submit" name = "submit" value="submit"/></p>
     </form>
-
-    <label for="equipment-select">Choose an equipment you want:</label>
-    <select name="gears" id="equipment-select">
+        </p>
+        <br>
+        <br>
+        <br>
+    <label for="equipment-seclect">Choose an equipment you want</label>
+    <select name="gears" id="equipment-seclect">
         <option value="">--Please choose an option--</option>
         <option value="Mouse">Mouse</option>
         <option value="Keyboard">Keyboard</option>
@@ -92,8 +39,13 @@
         <option value="Laptop">Laptop</option>
         <option value="Charging cables">Charging cables</option>
         <option value="Speakers">Speakers</option>
-        <option value="Controller">Controller</option>
-        <option value="Tablets">Tablets</option>
     </select>
+    
+    </select>
+
+    </p>
+     
+    </form>
 </body>
+
 </html>
